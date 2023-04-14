@@ -59,8 +59,7 @@
             ```
             * You can use `gcloud run deploy --help` to check all `FLAGS`, <a href="https://cloud.google.com/sdk/gcloud/reference/run/deploy">see</a>
 
-            * If you won't any one access this api, you should remove `--allow-unauthenticated` from [`deploy.sh`](./deploy.sh)
-                [see Authenticated]()
+            * If you won't any one access this api, you should remove `--allow-unauthenticated` from [`deploy.sh`](./deploy.sh), [see Authenticated]()
 
     * method
         1. Define your **"ENVIRONMENT VARIABLES"** in [`config.env`](./config.env), for example:
@@ -143,6 +142,9 @@
     * `--no-allow-unauthenticated` : no one can access your api.
 
         * [How to grant authorization to specific members?](https://cloud.google.com/sdk/gcloud/reference/run/services/add-iam-policy-binding)
-            ```gcloud run services add-iam-policy-binding my-service --region='us-central1' --member='user:test-user@gmail.com' --role='roles/run.invoker'```
+
+            ```
+            gcloud run services add-iam-policy-binding my-service --region='us-central1' --member='user:test-user@gmail.com' --role='roles/run.invoker'
+            ```
 
     * `--allow-unauthenticated` : any one can access your api
