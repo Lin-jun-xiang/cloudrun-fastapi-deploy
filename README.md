@@ -13,7 +13,7 @@
 ## Basic method via CLI
 
 * `gcloud CLI`
-    * **Build Image on Cloud**
+    * **Build Image on Cloud (Container Registry)**
         ```
         gcloud builds submit --tag {REGION}.gcr.io/{PROJECT_ID}/{IMAGE} --ignore-file .gcloudignore
         ```
