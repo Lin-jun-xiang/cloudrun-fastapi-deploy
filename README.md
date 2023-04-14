@@ -59,7 +59,7 @@ In our [`deploy.sh`](./deploy.sh) we will:
     ```
     * You can use `gcloud run deploy --help` to check all `FLAGS`, <a href="https://cloud.google.com/sdk/gcloud/reference/run/deploy">see</a>
 
-    * If you won't any one access this api, you should remove `--allow-unauthenticated` from [`deploy.sh`](./deploy.sh), [see Authenticated]()
+    * If you won't any one access this api, you should remove `--allow-unauthenticated` from [`deploy.sh`](./deploy.sh), [see Authenticated](#authenticated)
 
 #### method
 1. Define your **"ENVIRONMENT VARIABLES"** in [`config.env`](./config.env), for example:
