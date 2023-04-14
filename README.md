@@ -1,7 +1,7 @@
 ## Deploy FastAPI on Cloud Run (Beginner)
 
 <div>
-    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Discussion." />
+    <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=fccf03&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Discussion." />
 </div>
 
 ## Introduction
