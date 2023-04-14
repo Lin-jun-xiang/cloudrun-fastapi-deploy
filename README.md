@@ -4,13 +4,13 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=f75c7e&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Discussion." />
 </div>
 
-#### Introduction
+## Introduction
 
 * Template for running FastAPI on Google Cloud Run.
 
 * Deploying API on Cloud Run with FastAPI in one-click and quickly.
 
-#### Basic method via CLI
+## Basic method via CLI
 
 * `gcloud CLI`
     * **Build Image on Cloud**
@@ -23,7 +23,7 @@
         gcloud run deploy --image {REGION}.gcr.io/{PROJECT_ID}/{IMAGE} --platform managed --port 8000 --memory {1Gi} --timeout={2m}
         ```
 
-#### Advance method via Shell
+## Advance method via Shell
 * `shell script`
     * advantage
 
@@ -135,7 +135,7 @@
             {'code': '0', 'msg': 'success', 'ip_address': 'e12345'}
             ```
     
-#### Authenticated
+## Authenticated
 
 * **Authenticated** is a security option in Cloud Run that controls who can access your application.
 
