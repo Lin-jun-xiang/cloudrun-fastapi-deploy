@@ -1,0 +1,7 @@
+db-dtypes
+fastapi
+uvicorn
+requests
+pydantic
+google.cloud
+google.cloud.bigquery
