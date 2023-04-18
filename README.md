@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.demolab.com/?pause=1&size=50&color=fccf03&center=True&width=1200&height=120&vCenter=True&lines=Click+the+⭐+Star+please.;Any+questions+can+be+asked+in+Issue." />
 </div>
 
-[中文本說明檔](./README_%E4%B8%AD%E6%96%87.md)
+[中文版說明書](./README_%E4%B8%AD%E6%96%87.md)
 
 ## Introduction
 
