@@ -11,6 +11,9 @@
 * Template for running FastAPI on Google Cloud Run.
 
 * Deploying API on Cloud Run with FastAPI in one-click and quickly.
+    * If you want to store the IMAGE in a **container registry**, please use `deploy.sh` and `config.env` (the following instructions are based on this).
+    * If you want to store the IMAGE in an **artifact registry**, please use `deploy_art.sh` and `config_art.sh` (recommended option).
+
 
 ## Basic method via CLI
 

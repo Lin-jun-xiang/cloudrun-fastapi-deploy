@@ -8,6 +8,8 @@
 * 在 Google Cloud Run 上運行 FastAPI 的範本
 
 * 透過一鍵式且快速地使用 FastAPI 在 Cloud Run 上部署 API
+    * 若您想將 IMAGE 存放在 **container registry**，請使用 `deploy.sh`、`config.env` (以下說明以此為例)
+    * 若您想將 IMAGE 存放在 **artifact registry**，請使用 `deploy_art.sh`、`config_art.sh` (建議使用此)
 
 ## 透過 CLI 的基本方法
 
